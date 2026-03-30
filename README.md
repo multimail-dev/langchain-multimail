@@ -48,6 +48,21 @@ executor.invoke({"input": "Check my inbox and summarize any new emails"})
 | `get_thread` | Get all emails in a conversation |
 | `tag_email` | Add key-value tags to an email |
 
+This toolkit complements MultiMail's 38 MCP tools with LangChain-native wrappers for common email workflows.
+
+## Compliance
+
+MultiMail handles regulatory compliance at the infrastructure layer — no SDK-side code changes needed:
+
+- **EU AI Act Article 50**: Every AI-sent email includes a cryptographically signed `ai_generated` disclosure in the `X-MultiMail-Identity` header
+- **US State Laws**: Maine, New York, California, Illinois — AI disclosure built into email delivery
+- **CAN-SPAM**: Unsubscribe headers and physical address footers on all outbound email
+- **Formally Verified**: Lean 4 proofs of identity header tamper evidence
+
+MultiMail handles EU AI Act Article 50 compliance at the infrastructure layer. Every AI-sent email includes signed `ai_generated` disclosure automatically.
+
+See [multimail.dev/use-cases/eu-ai-act-email-compliance](https://multimail.dev/use-cases/eu-ai-act-email-compliance) for details.
+
 ## Oversight Modes
 
 MultiMail supports graduated oversight so your agent doesn't send unsupervised email:
