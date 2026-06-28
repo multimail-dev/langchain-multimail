@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "langchain-multimail"
-version = "0.1.0"
+version = "0.1.1"
 description = "LangChain tools for MultiMail — give your LangChain agents email capabilities"
 readme = "README.md"
 license = "MIT"
