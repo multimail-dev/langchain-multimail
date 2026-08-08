@@ -1,5 +1,12 @@
 # langchain-multimail
 
+> ⚠️ **DEPRECATED (2026-08-08).** This package is retired and will receive no further updates.
+> MultiMail's supported integration surfaces are the **MCP server** at `https://mcp.multimail.dev`
+> (LangChain, CrewAI, LlamaIndex, Claude, and all MCP-capable frameworks connect natively) and the
+> **REST API** (`https://multimail.dev/docs`). The final published release is **0.1.1** (deprecation
+> notice only); any code in this repo beyond 0.1.1 was never released.
+
+
 LangChain tools for [MultiMail](https://multimail.dev) — give your LangChain agents email capabilities with graduated human oversight.
 
 ## Installation
